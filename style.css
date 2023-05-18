@@ -1403,8 +1403,11 @@ position: relative;
 # Contact
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 80px 0;
+  background: url("./Eat\ Local\ Site\ Prototypes/Services.jpg") no-repeat;
+  background-position: center center;
+  background-size: fit-content;
+  position: relative;
 }
 
 .contact .info {
@@ -1415,8 +1418,8 @@ position: relative;
   font-size: 20px;
   color: #ffb03b;
   float: left;
-  width: 44px;
-  height: 44px;
+  width: fit-content;
+  height: fit-content;
   background: #fff6e8;
   display: flex;
   justify-content: center;
@@ -1430,7 +1433,7 @@ position: relative;
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #433f39;
+  color: #ffb03b;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1438,7 +1441,7 @@ position: relative;
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #7a7368;
+  color: #ffb03b;
 }
 
 .contact .info:hover i {
